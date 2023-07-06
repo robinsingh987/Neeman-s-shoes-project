@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOES PROJECT</title>
+
+    <!-- CSS LINK HERE -->
+    <link rel="stylesheet" href="./style.css"/>
+    <!-- GOOGLE FONT CDN HERE -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- PROJECT START -->
+     <section class="section">
+        <header>
+            <img src="logo.png" class="logo">
+            <ul>
+                <li><a href="#">HOME</a></li> 
+                <li><a href="#">LIGHT WALKERS</a></li>
+                <li><a href="#">CASUAL</a></li>
+                <li><a href="#">SNEAKERS</a></li>
+                <li><a href="#">NEW COLLECTION</a></li>
+            </ul>
+        </header>
+        <div class="right-hero-section">
+            <div class="textbox">
+                <h2>Introducing <br>Light Walkers</h2>
+                <p>Doubles up as your walking as well as daily routine shoes.We've got more to talk about than just footwear...</p>
+                <a href="#">Explore All Product</a>
+            </div>
+            <div class="imgmenbox">
+                <img src="men.png" class="manbox">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="shoes1.png" onclick="imgSlider('shoes1.png');changeBgcolor('#0062be')"></li>
+            <li><img src="shoes 2.png" onclick="imgSlider('shoes 2.png');changeBgcolor('#e60c2c')"></li>
+            <li><img src="shoes 3.png" onclick="imgSlider('shoes 3.png');changeBgcolor('#f45e00')"></li>
+            <li><img src="men.png" onclick="imgSlider('men.png');changeBgcolor('#fff2ea')"></li>
+        </ul>
+     </section>
+     <script src="./script.js"></script>
+</body>
+</html>

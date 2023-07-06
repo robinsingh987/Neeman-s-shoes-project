@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+    
+}
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+    background-color:#fff2ea ;
+
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #efe1ce;
+    border: 1px solid #fc6100;
+}
+.logo{
+    height: 85px;
+    width: 200px;   
+}
+header ul{
+    position: relative;
+    display: flex;
+}
+header ul li{
+    list-style: none;
+}
+header ul li a:hover{
+    color: chocolate;
+}
+header ul li a{
+    display: inline-block;
+    color: #000000;
+    font-weight: 400;
+    margin-left: 40px;
+    text-decoration: none;
+}
+.right-hero-section{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right-hero-section .textbox{
+    position: relative;
+    max-width: 600px;
+}   
+.right-hero-section .textbox h2{
+    color:#000000;
+    font-size: 4em;
+    line-height: 1.5em;
+    font-weight: 900;
+    text-transform: uppercase;   
+}
+.right-hero-section .textbox p{
+    color: #000000;
+}
+.right-hero-section .textbox a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: #efe1ce;
+    color: #000000;
+    border: 1px solid #fc6100;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.right-hero-section .textbox a:hover{
+    background-color: #000000;
+    color: white;
+}
+.right-hero-section .imgmenbox{
+    width: 600px;
+    display: flex;
+    padding-left: 50px;
+    margin-top: 50px;
+    justify-content: flex-end; 
+}
+.right-hero-section .imgmenbox img{
+    max-width: 600px;    
+}
+.thumb{
+    position: absolute;
+    left: 50%;
+    bottom: 100px;
+    transform: translateX(-50%);
+    display: flex;
+}
+.thumb li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: 0.5%;
+}
+.thumb li:hover{
+    transform: translateY(-15px);
+    
+}
+.thumb li img{
+    max-width: 40px;
+}
+.sci{
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sci li{
+    list-style: none;
+}
+.sci li a{
+    display: inline-block;
+    filter: invert(1);
+    margin: 5px 0;
+    transform: scale(0.6);}   
